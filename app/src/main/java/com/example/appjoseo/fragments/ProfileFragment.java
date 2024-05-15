@@ -33,7 +33,7 @@ public class ProfileFragment extends Fragment {
     }
 
     private void openWebsite() {
-        String url = "https://www.example.com";
+        String url = "https://github.com/Jonathajo1/UTS_MobileProgramming.git";
         try {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             intent.setPackage("com.android.chrome");
